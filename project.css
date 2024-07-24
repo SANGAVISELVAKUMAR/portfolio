@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    padding: 20px;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/014/525/104/original/simple-and-cool-background-design-suitable-for-ppt-backgrounds-and-others-simple-backgrounds-free-vector.jpg'); 
+
+}
+
+#projects {
+    background-color: #f0f0f0; /* Light gray background for projects section */
+}
+
+.content {
+    max-width: 800px;
+}
+
+.project {
+    display: flex;
+    margin-bottom: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.project img {
+    width: 300px; /* Adjust image width as needed */
+    height: auto;
+    object-fit: cover;
+}
+
+.project-info {
+    padding: 20px;
+}
+
+.project-info h3 {
+    margin-top: 0;
+}
+
+.project-info p {
+    margin-bottom: 10px;
+}
+
+.project-info a {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.project-info a:hover {
+    background-color: #555;
+}
